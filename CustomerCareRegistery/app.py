@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 mysql=MySQL(app)
 
-api_sendgrid="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"
+api_sendgrid="Your Sendgrid api"
 
 app.config['MYSQL_HOST']='remotemysql.com'
 app.config['MYSQL_USER']='9JtF7WHjWK'
